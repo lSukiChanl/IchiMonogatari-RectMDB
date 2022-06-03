@@ -1,0 +1,122 @@
+/* Documento General */
+
+/* NavBar */
+.TituloNav{
+    color: aqua !important;
+    font: bold 150% cursive;
+}
+
+.TituloNav:hover{
+    color: pink !important;
+}
+
+.TituloNav:focus{
+    color: pink ;
+    font: bold 150% cursive;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: pink !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: aqua !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: aqua !important;
+}
+
+.Navegacion{
+    font: bold 125% cursive;
+}
+
+.Buscador{
+    font: bold 100% cursive;
+}
+
+.Buscador:focus {
+    color: pink !important;
+    background-color: #212529 !important;
+    border-color: aqua !important;
+    outline: 0px !important;
+    box-shadow: 0 0 0 0.25rem #00ffff96 !important;
+  }
+
+.btn-outline-pink {
+    color: pink !important;
+    border-color: pink !important;
+  }
+
+.btn-outline-pink:hover {
+    color: white !important;
+    background-color: pink !important;
+    border-color: pink !important;
+}
+
+.BuscadorButtom{
+    margin-left: 10px !important;
+}
+/* BANNER */
+.FondoBanner {
+    background-color: black;
+}
+
+.BannerIMG{
+    width: 100%;
+    opacity: 75%;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+/* LISTA DE ANIMES/PELICULAS/HENTAI */
+.FondoTarjetas {
+    background-color: #eee;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.Tarjeta{
+    cursor:pointer;
+}
+
+.img-fluid{
+    height: 220px !important;
+    width: 100%;
+    width: 100%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    opacity: 100%;
+}
+
+.Nombre{
+    overflow: hidden;
+    height: 55px;
+    width: 100%;
+    color: black;
+    font: bold 125% cursive;
+    text-align: center;
+}
+
+.Extra{
+    color: black;
+    font: bold 100% cursive;
+    text-align: justify;
+}
+
+
+.BrilloOscuro {
+    box-shadow:
+       0 0 7px #fff,
+       0 0 5px #fff,
+       0 0 15px #fff, !important;
+}
+
+.BrilloClaro {
+   box-shadow:
+      0 0 7px black,
+      0 0 5px black,
+      0 0 15px black, !important;
+}
