@@ -3,7 +3,7 @@ import IMGMENHERA from '../Assets/MenheraC.png'
 import IMGLITTLE from '../Assets/MenheraLittleGirlC.png'
 import IMDCAFE from '../Assets/CafecitoC.png'
 
-export default function Discordbots() {
+export default function DiscordBots() {
   return (
     
     <div className="album py-5" >

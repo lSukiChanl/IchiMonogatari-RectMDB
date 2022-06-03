@@ -39,8 +39,7 @@ export default function NavBar() {
                         </ul>
                         <div className="d-flex">
                             <input className="form-control Buscador" id="Busqueda" type="text" placeholder="Nombre del Anime" onChange={handleOnClick}/> 
-                            <button className="btn btn-outline-pink BuscadorButtom" ><i className="fas fa-search "></i> </button>
-                            <button className="btn btn-outline-pink BuscadorButtom" ><i className="fas fa-upload"></i> </button>
+                            <Link className="btn btn-outline-pink BuscadorButtom" to='/Subir'><i className="fas fa-upload"></i> </Link>
                         </div>
                     </div>
                 </div>

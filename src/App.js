@@ -11,15 +11,16 @@ import Copyright from "./Components/Copyright"
 //Paginas
 import Inicio from "./Rutas/Inicio"
 import Animes from "./Rutas/Animes"
+import DatoAnime from "./Rutas/DatoAnime"
 import Peliculas from "./Rutas/Peliculas"
 import DatoPelicula from "./Rutas/DatoPelicula"
 import Hentais from "./Rutas/Hentais"
 import DatoHentai from "./Rutas/DatoHentai"
 import Comandos from "./Rutas/Comandos"
 import Busqueda from "./Rutas/Busqueda"
-import Discordbots from "./Rutas/Discordbots"
+import DiscordBots from "./Rutas/DiscordBots"
 
-import DatoAnime from "./Rutas/DatoAnime"
+import SubirContenido from "./Rutas/SubirContenido";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                   <Route path="/Pelicula/:id" element={<DatoPelicula></DatoPelicula>}/>
                   <Route path="/Hentai/:id" element={<DatoHentai></DatoHentai>}/>
                   <Route path="*" element={<Outlet></Outlet>}/>
+                  <Route path="/Subir" element={<SubirContenido></SubirContenido>}/>
               </Routes>
             
               <MDBContainer>
@@ -52,13 +54,14 @@ function App() {
                     <Route path="/Animes" element={<Animes></Animes>}/>
                     <Route path="/Peliculas" element={<Peliculas></Peliculas>}/>
                     <Route path="/Hentais" element={<Hentais></Hentais>}/>
-                    <Route path="/DiscordBots" element={<Discordbots></Discordbots>}/>
+                    <Route path="/DiscordBots" element={<DiscordBots></DiscordBots>}/>
                     <Route path="/Comandos" element={<Comandos></Comandos>}/>
                     <Route path="/Busqueda/" element={<Inicio></Inicio>}/>
                     <Route path="/Busqueda/:id" element={<Busqueda></Busqueda>}/>
                     <Route path="/Anime/:id" element={<Outlet></Outlet>}/>
                     <Route path="/Pelicula/:id" element={<Outlet></Outlet>}/>
                     <Route path="/Hentai/:id" element={<Outlet></Outlet>}/>
+                    <Route path="/Subir" element={<Outlet></Outlet>}/>
                 </Routes>
               </MDBContainer>
               </div>

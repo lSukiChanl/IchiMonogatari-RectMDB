@@ -546,3 +546,47 @@
     .w-100 {
         border-radius: 3%;
     }
+/* COPYRIGHT */
+    .EspaciadoY{
+        padding-top: 3rem !important;
+        padding-bottom: 3rem !important; 
+    }
+
+    .EspaciadoX{
+        padding-right: 1.5rem !important;
+        padding-left: 1.5rem !important;
+    }
+
+    .Leyenda{
+        text-align: center;
+    }
+
+    .Img{
+        width: 50%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .creditos1 {
+        
+        color:#A6A8A9;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font: bold 100% cursive;
+        text-align: center;
+    }
+
+    .creditos2 {
+        color:#A6A8A9;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font: bold 100% cursive;
+        text-align: center;
+    }
+
+    .creditos{
+        padding-top: 10px;
+    }

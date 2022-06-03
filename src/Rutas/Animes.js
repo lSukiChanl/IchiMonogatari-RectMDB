@@ -11,7 +11,7 @@ export default function Animes() {
     }, []);
 
   return (
-    <div id='FondoTarjetas' id="CuerpoPagina">       
+    <div className='FondoTarjetas' id='CuerpoPagina'>       
         <div className="Tarjetas">
             <div className="Condicion">
                 <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
