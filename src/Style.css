@@ -1,122 +1,548 @@
 /* Documento General */
-
+#CuerpoPagina{
+    padding-top:75px !important;
+    padding-bottom:75px !important;
+}
 /* NavBar */
-.TituloNav{
-    color: aqua !important;
-    font: bold 150% cursive;
-}
+    .TituloNav{
+        color: aqua !important;
+        font: bold 150% cursive;
+    }
 
-.TituloNav:hover{
-    color: pink !important;
-}
+    .TituloNav:hover{
+        color: pink !important;
+    }
 
-.TituloNav:focus{
-    color: pink ;
-    font: bold 150% cursive;
-}
+    .TituloNav:focus{
+        color: pink ;
+        font: bold 150% cursive;
+    }
 
-.navbar-dark .navbar-nav .nav-link {
-    color: pink !important;
-}
+    .navbar-dark .navbar-nav .nav-link {
+        color: pink !important;
+    }
 
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: aqua !important;
-}
+    .navbar-dark .navbar-nav .nav-link:hover {
+        color: aqua !important;
+    }
 
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: aqua !important;
-}
+    .navbar-dark .navbar-nav .nav-link:focus {
+        color: aqua !important;
+    }
 
-.Navegacion{
-    font: bold 125% cursive;
-}
+    .Navegacion{
+        font: bold 125% cursive;
+    }
 
-.Buscador{
-    font: bold 100% cursive;
-}
+    .Buscador{
+        font: bold 100% cursive;
+    }
 
-.Buscador:focus {
-    color: pink !important;
-    background-color: #212529 !important;
-    border-color: aqua !important;
-    outline: 0px !important;
-    box-shadow: 0 0 0 0.25rem #00ffff96 !important;
-  }
+    .Buscador:focus {
+        color: pink !important;
+        background-color: #212529 !important;
+        border-color: aqua !important;
+        outline: 0px !important;
+        box-shadow: 0 0 0 0.25rem #00ffff96 !important;
+    }
 
-.btn-outline-pink {
-    color: pink !important;
-    border-color: pink !important;
-  }
+    .btn-outline-pink {
+        color: pink !important;
+        border-color: pink !important;
+    }
 
-.btn-outline-pink:hover {
-    color: white !important;
-    background-color: pink !important;
-    border-color: pink !important;
-}
+    .btn-outline-pink:hover {
+        color: white !important;
+        background-color: pink !important;
+        border-color: pink !important;
+    }
 
-.BuscadorButtom{
-    margin-left: 10px !important;
-}
+    .BuscadorButtom{
+        margin-left: 10px !important;
+    }
+    
 /* BANNER */
-.FondoBanner {
-    background-color: black;
-}
+    .FondoBanner {
+        background-color: black;
+    }
 
-.BannerIMG{
-    width: 100%;
-    opacity: 75%;
-    pointer-events: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; 
-}
-/* LISTA DE ANIMES/PELICULAS/HENTAI */
-.FondoTarjetas {
-    background-color: #eee;
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-}
+    .BannerIMG{
+        width: 100%;
+        opacity: 75%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+    /* LISTA DE ANIMES/PELICULAS/HENTAI */
 
-.Tarjeta{
-    cursor:pointer;
-}
+    .Tarjeta{
+        cursor:pointer;
+    }
 
-.img-fluid{
-    height: 220px !important;
-    width: 100%;
-    width: 100%;
-    border-bottom-right-radius: 5%;
-    border-bottom-left-radius: 5%;
-    opacity: 100%;
-}
+    .img-fluid{
+        height: 220px !important;
+        width: 100%;
+        width: 100%;
+        border-bottom-right-radius: 5%;
+        border-bottom-left-radius: 5%;
+        opacity: 100%;
+    }
 
-.Nombre{
-    overflow: hidden;
-    height: 55px;
-    width: 100%;
-    color: black;
-    font: bold 125% cursive;
-    text-align: center;
-}
+    .Nombre{
+        overflow: hidden;
+        height: 55px;
+        width: 100%;
+        color: black;
+        font: bold 125% cursive;
+        text-align: center;
+    }
 
-.Extra{
-    color: black;
-    font: bold 100% cursive;
-    text-align: justify;
-}
+    .Extra{
+        color: black;
+        font: bold 100% cursive;
+        text-align: justify;
+    }
 
+    .BrilloOscuro {
+        box-shadow:
+        0 0 7px #fff,
+        0 0 5px #fff,
+        0 0 15px #fff !important;
+    }
 
-.BrilloOscuro {
+    .BrilloClaro {
     box-shadow:
-       0 0 7px #fff,
-       0 0 5px #fff,
-       0 0 15px #fff, !important;
-}
+        0 0 7px black,
+        0 0 5px black,
+        0 0 15px black !important;
+    }
 
-.BrilloClaro {
-   box-shadow:
-      0 0 7px black,
-      0 0 5px black,
-      0 0 15px black, !important;
-}
+/* DISCORDBOTS */
+    .TituloOscuro{
+        color: pink;
+        font: bold 250% cursive;
+        text-align: center;
+    }
+
+    .TituloClaro{
+        color: black;
+        font: bold 250% cursive;
+        text-align: center;
+    }
+
+    .SubtituloOscuroA{
+        color: aqua;
+        font: bold 200% cursive;
+        text-align: justify;
+    }
+
+    .SubtituloOscuroAM{
+        color: aquamarine;
+        font: bold 200% cursive;
+        text-align: justify;
+    }
+
+    .SubtituloClaro{
+        color: grey;
+        font: bold 200% cursive;
+        text-align: justify;
+    }
+
+    .Discord{
+        height: 400px;
+        width: 500px;
+        border-radius: 5%;
+        background-size: 100%;
+        background-position: bottom;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .Menhera{
+        height: 400px;
+        width: 500px;
+        border-radius: 5%;
+        background-size: 100%;
+        background-position: 0% 15%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .MenheraLG{
+        height: 400px;
+        width: 500px;
+        border-radius: 5%;
+        background-size: 100%;
+        background-position: 0% 5%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .Cafecito{
+        height: 400px;
+        width: 500px;
+        border-radius: 5%;
+        background-size: 150%;
+        background-position: 50% 0%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .btn-DiscordOscuro {
+        color: #fff;
+        background-color: #FFDC8A;
+        border-color: #FFDC8A;
+        font: bold 150% cursive;
+    }
+
+    .btn-DiscordOscuro:hover {
+        color: #fff;
+        background-color: #FFC640;
+        border-color:#FFC640;
+    }
+
+    .btn-DiscordClaro {
+        color: #fff;
+        background-color: #A349A4;
+        border-color: #A349A4;
+        font: bold 150% cursive;
+    }
+
+    .btn-DiscordClaro:hover {
+        color: #fff;
+        background-color: #733373;
+        border-color: #733373;
+    }
+
+    .btn-MenheraOscuro {
+        color: #fff;
+        background-color: #B4345A;
+        border-color: #B4345A   ;
+        font: bold 150% cursive;
+    }
+
+    .btn-MenheraOscuro:hover {
+        color: #fff;
+        background-color: #822642;
+        border-color: #822642;
+    }
+
+    .btn-MenheraOscuro-secondary {
+        font: bold 150% cursive;
+        color: #B4345A;
+        border-color: #B4345A;
+    }
+
+    .btn-MenheraOscuro-secondary:hover {
+        color: #fff;
+        background-color: #B4345A;
+        border-color: #B4345A;
+    }
+
+    .btn-MenheraClaro {
+        color: #fff;
+        background-color: #725C6E;
+        border-color: #725C6E;
+        font: bold 150% cursive;
+    }
+
+    .btn-MenheraClaro:hover {
+        color: #fff;
+        background-color: #4E3F45;
+        border-color: #4E3F45;
+    }
+
+    .btn-MenheraClaro-secondary {
+        font: bold 150% cursive;
+        color: #B4345A;
+        border-color: #B4345A;
+    }
+
+    .btn-MenheraClaro-secondary:hover {
+        color: #fff;
+        background-color: #725C6E;
+        border-color: #725C6E;
+    }
+
+    .btn-MenheraLGOscuro {
+        color: #fff;
+        background-color: pink;
+        border-color: pink;
+        font: bold 150% cursive;
+    }
+
+    .btn-MenheraLGOscuro:hover {
+        color: #fff;
+        background-color: palevioletred;
+        border-color: palevioletred;
+    }
+
+    .btn-MenheraLGOscuro-secondary {
+        font: bold 150% cursive;
+        color: pink;
+        border-color: #382935;
+    }
+
+    .btn-MenheraLGOscuro-secondary:hover {
+        color: #fff;
+        background-color: pink;
+        border-color: pink;
+    }
+
+    .btn-MenheraLGClaro {
+        color: #fff;
+        background-color: #EA6891;
+        border-color: #EA6891;
+        font: bold 150% cursive;
+    }
+
+    .btn-MenheraLGClaro:hover {
+        color: #fff;
+        background-color: #9A3E5A;
+        border-color: #9A3E5A;
+    }
+
+    .btn-MenheraLGClaro-secondary {
+        font: bold 150% cursive;
+        color: #EA6891;
+        border-color: #382935;
+    }
+
+    .btn-MenheraLGClaro-secondary:hover {
+        color: #fff;
+        background-color: #EA6891;
+        border-color: #EA6891;
+    }
+
+    .btn-CafeOscuro {
+        color: #fff;
+        background-color: #D0C1AA;
+        border-color: #D0C1AA;
+        font: bold 150% cursive;
+    }
+
+    .btn-CafeOscuro:hover {
+        color: #fff;
+        background-color: #BCA685;
+        border-color: #BCA685;
+    }
+
+    .btn-CafeClaro {
+        color: #fff;
+        background-color: #A99983;
+        border-color: #A99983;
+        font: bold 150% cursive;
+    }
+
+    .btn-CafeClaro:hover {
+        color: #fff;
+        background-color: #938066;
+        border-color: #938066;
+    }
+
+/* COMMANDOS */
+    .FondoClaro{
+        background-color: #eee;
+    }
+
+    .TituloOscuro{
+        color: pink;
+        font:  bold 250% cursive;
+        text-align: center;
+    }
+
+    .TituloClaro{
+        color: black;
+        font:  bold 250% cursive;
+        text-align: center;
+    }
+
+    .SubtituloOscuro{
+        color: aqua;
+        font:  bold 175% cursive;
+        text-align: justify;
+    }
+
+    .SubtituloClaro{
+        color: grey;
+        font:  bold 175% cursive;
+        text-align: justify;
+    }
+
+    .PrefixOscuro {
+        color: aquamarine;
+        font:  bold 200% cursive;
+        text-align: center;
+    }
+
+    .PrefixClaro {
+        color: #DC9350;
+        font:  bold 200% cursive;
+        text-align: center;
+    }
+
+    .ComandoOscuro{
+        color: aquamarine;
+        font:  bold 200% cursive;
+        text-align: center;
+    }
+
+    .ComandoClaro{
+        color: black;
+        font:  bold 200% cursive;
+        text-align: center;
+    }
+
+    .RespuestaOscuro{
+        color: aqua;
+        font:  bold 200% cursive;
+        text-align: justify;
+    }
+
+    .RespuestaClaro{
+        color: grey;
+        font:  bold 200% cursive;
+        text-align: justify;
+    }
+
+    .btn-outline-Hentai {
+        color: pink;
+        border-color: pink;
+        font: bold 150% cursive;
+    }
+
+    .btn-outline-Hentai:hover {
+        color: #eee;
+        background-color: pink;
+        border-color: pink;
+    }
+/* PAGINAS */
+    .ImagenSerie {
+        width: 100%;
+        background-size:cover;
+        background-attachment:fixed;
+        opacity: 100%;
+    }
+
+    .Datos { 
+        background-color: rgba(0, 0, 0, 0.5);
+        border-color: black;
+    }
+
+    .ContenedorImagen{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ImagenPortada {
+        width: 80%;
+        border-radius: 5%;
+        background-size: 100% 100%;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .TituloSerie{
+        color: white;
+        font: bold 350% cursive;
+        text-align: center;
+        -webkit-text-stroke: 3px black;
+        margin-bottom: 25px;
+    }
+
+    .TituloPrincipal{
+        color: white;
+        font: bold 350% cursive;
+        text-align: center;
+        -webkit-text-stroke: 3px black;
+        margin-bottom: 50px;
+    }
+
+    .DescripcionSub{
+        color: white;
+        font: 150% cursive;
+        -webkit-text-stroke: 0.5px black;
+        text-align: justify;
+        margin-right: 5%;
+    }
+
+    .CapturasImg{
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .CapturasInfo{
+        color: white;
+        font: bold 200% cursive;
+        -webkit-text-stroke: 1px black;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .Informacion{
+        color: white;
+        font: bold 200% cursive;
+        -webkit-text-stroke: 2px black;
+        text-align:center;
+        margin-top: -10px;
+
+    }
+
+    .Descarga{
+        color: white;
+        font: bold 250% cursive;
+        -webkit-text-stroke: 2px black;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+    .ContenedorFolder{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Folder{
+        width: 256px;
+        cursor: pointer;
+        pointer-events: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none; 
+    }
+
+    .GaleriaFIN{
+        display:flex;
+        justify-content: center;
+        height:fit-content
+    }
+
+    .Contenedor {
+        width: 75%;
+    }
+
+    .w-100 {
+        border-radius: 3%;
+    }

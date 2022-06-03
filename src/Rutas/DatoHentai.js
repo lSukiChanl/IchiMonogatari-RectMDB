@@ -40,7 +40,7 @@ export default function DatoHentai() {
                 <div key={Dato.url}> 
                     <div>
                         <div>
-                            <div className="album py-0 Fondo" style={{backgroundImage: `url(${Dato.imgfondo})`}}>
+                            <div className="album py-0 ImagenSerie" style={{backgroundImage: `url(${Dato.imgfondo})`}}>
                                 <div className="container Datos">
                                     <br/>
                                     <hr className="featurette-divider"/>

@@ -12,7 +12,7 @@ export default function Peliculas() {
 
     return (
         <div>       
-            <div className="Tarjetas">
+            <div className="FondoTarjetas" id="CuerpoPagina">
                 <div className="Condicion">
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                         {ListaPeliculas.map((Pelicula) =>(

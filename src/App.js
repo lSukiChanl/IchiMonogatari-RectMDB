@@ -4,6 +4,7 @@ import { DiscussionEmbed } from 'disqus-react';
 
 // Componentes 
 import Banner from "./Components/Banner"
+import Banner18 from "./Components/Banner18";
 import NavBar from "./Components/Navbar"
 import Copyright from "./Components/Copyright"
 
@@ -33,7 +34,7 @@ function App() {
                   <Route exact path="/Inicio" element={<Banner></Banner>}/>
                   <Route path="/Animes" element={<Banner></Banner>}/>
                   <Route path="/Peliculas" element={<Banner></Banner>}/>
-                  <Route path="/Hentais" element={<Banner></Banner>}/>
+                  <Route path="/Hentais" element={<Banner18></Banner18>}/>
                   <Route path="/DiscordBots" element={<Banner></Banner>}/>
                   <Route path="/Comandos" element={<Banner></Banner>}/>
                   <Route path="/Busqueda/" element={<Banner></Banner>}/>
@@ -64,7 +65,7 @@ function App() {
   
             <div className='bg-dark'>
             <MDBContainer>
-            <DiscussionEmbed shortname='ichimonogatari' config={{identifier: '/IchiMonogatari'}}/>
+              <DiscussionEmbed shortname='ichimonogatari' config={{identifier: '/IchiMonogatari'}}/>
                 <Copyright></Copyright>
             </MDBContainer>
             </div>
