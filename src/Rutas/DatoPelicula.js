@@ -4,8 +4,6 @@ import { Link, useParams } from 'react-router-dom'
 import { MDBCarousel,MDBCarouselInner,MDBCarouselItem,MDBCarouselElement,MDBCarouselCaption } from 'mdb-react-ui-kit';
 import Loading from '../Assets/Loading.png'
 
-import IMGDISCORD from '../Assets/DiscordC.png'
-
 export default function DatoPelicula() {
 
     const { id } = useParams();
