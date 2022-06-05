@@ -203,54 +203,54 @@
     }
 
     .btn-DiscordOscuro {
-        color: #fff;
-        background-color: #FFDC8A;
-        border-color: #FFDC8A;
-        font: bold 150% cursive;
+        color: #fff !important;
+        background-color: #FFDC8A !important;
+        border-color: #FFDC8A !important;
+        font: bold 150% cursive !important;
     }
 
     .btn-DiscordOscuro:hover {
-        color: #fff;
-        background-color: #FFC640;
-        border-color:#FFC640;
+        color: #fff !important;
+        background-color: #FFC640 !important;
+        border-color:#FFC640 !important;
     }
 
     .btn-DiscordClaro {
-        color: #fff;
-        background-color: #A349A4;
-        border-color: #A349A4;
-        font: bold 150% cursive;
+        color: #fff !important;
+        background-color: #A349A4 !important;
+        border-color: #A349A4 !important;
+        font: bold 150% cursive !important;
     }
 
     .btn-DiscordClaro:hover {
-        color: #fff;
-        background-color: #733373;
-        border-color: #733373;
+        color: #fff !important;
+        background-color: #733373 !important;
+        border-color: #733373 !important;
     }
 
     .btn-MenheraOscuro {
-        color: #fff;
-        background-color: #B4345A;
-        border-color: #B4345A   ;
-        font: bold 150% cursive;
+        color: #fff !important;
+        background-color: #B4345A !important;
+        border-color: #B4345A !important;
+        font: bold 150% cursive !important;
     }
 
     .btn-MenheraOscuro:hover {
-        color: #fff;
-        background-color: #822642;
-        border-color: #822642;
+        color: #fff !important;
+        background-color: #822642 !important;
+        border-color: #822642 !important;
     }
 
     .btn-MenheraOscuro-secondary {
-        font: bold 150% cursive;
-        color: #B4345A;
-        border-color: #B4345A;
+        font: bold 150% cursive !important;
+        color: #B4345A !important;
+        border-color: #B4345A !important;
     }
 
     .btn-MenheraOscuro-secondary:hover {
-        color: #fff;
-        background-color: #B4345A;
-        border-color: #B4345A;
+        color: #fff !important;
+        background-color: #B4345A !important;
+        border-color: #B4345A !important;
     }
 
     .btn-MenheraClaro {

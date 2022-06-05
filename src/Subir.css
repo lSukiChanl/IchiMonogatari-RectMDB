@@ -240,7 +240,6 @@
 button{
     font: bold 350% cursive;
     color: white;
-    -webkit-text-stroke: 3px black;
     border: 0px;
 }
 
