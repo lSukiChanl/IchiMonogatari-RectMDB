@@ -16,9 +16,9 @@ import Peliculas from "./Rutas/Peliculas"
 import DatoPelicula from "./Rutas/DatoPelicula"
 import Hentais from "./Rutas/Hentais"
 import DatoHentai from "./Rutas/DatoHentai"
+import Bots from "./Rutas/Bots";
 import Comandos from "./Rutas/Comandos"
 import Busqueda from "./Rutas/Busqueda"
-import DiscordBots from "./Rutas/DiscordBots"
 
 import SubirContenido from "./Rutas/SubirContenido";
 
@@ -36,15 +36,15 @@ function App() {
                   <Route path="/Animes" element={<Banner></Banner>}/>
                   <Route path="/Peliculas" element={<Banner></Banner>}/>
                   <Route path="/Hentais" element={<Banner18></Banner18>}/>
-                  <Route path="/DiscordBots" element={<Banner></Banner>}/>
+                  <Route path="/Bots" element={<Banner></Banner>}/>
                   <Route path="/Comandos" element={<Banner></Banner>}/>
                   <Route path="/Busqueda/" element={<Banner></Banner>}/>
                   <Route path="/Busqueda/:id" element={<Banner></Banner>}/>
                   <Route path="/Anime/:id" element={<DatoAnime></DatoAnime>}/>
                   <Route path="/Pelicula/:id" element={<DatoPelicula></DatoPelicula>}/>
                   <Route path="/Hentai/:id" element={<DatoHentai></DatoHentai>}/>
-                  <Route path="*" element={<Outlet></Outlet>}/>
                   <Route path="/Subir" element={<SubirContenido></SubirContenido>}/>
+                  <Route path="*" element={<Outlet></Outlet>}/>
               </Routes>
             
               <MDBContainer>
@@ -54,7 +54,7 @@ function App() {
                     <Route path="/Animes" element={<Animes></Animes>}/>
                     <Route path="/Peliculas" element={<Peliculas></Peliculas>}/>
                     <Route path="/Hentais" element={<Hentais></Hentais>}/>
-                    <Route path="/DiscordBots" element={<DiscordBots></DiscordBots>}/>
+                    <Route path="/Bots" element={<Bots></Bots>}/>
                     <Route path="/Comandos" element={<Comandos></Comandos>}/>
                     <Route path="/Busqueda/" element={<Inicio></Inicio>}/>
                     <Route path="/Busqueda/:id" element={<Busqueda></Busqueda>}/>

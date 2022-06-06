@@ -9,7 +9,7 @@ export default function NavBar() {
     }
 
     return (
-        <div>
+        <div >
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div className="container">
                     <Link className="navbar-brand TituloNav" to="/Inicio"> ❤ IchiMonogatari ❤ </Link>
@@ -31,7 +31,7 @@ export default function NavBar() {
                                 <Link className="nav-link Navegacion Subs" to='/Hentais' >Hentai</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link Navegacion Subs" to='/DiscordBots' >Discord&Bots</Link>
+                                <Link className="nav-link Navegacion Subs" to='/Bots' >Discord&Bots</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link Navegacion Subs" to='/Comandos'>Comandos </Link>

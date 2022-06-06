@@ -120,6 +120,12 @@
     }
 
 /* DISCORDBOTS */
+    #PaginaBots{
+        margin: 0!important;
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
     .TituloOscuro{
         color: pink;
         font: bold 250% cursive;
