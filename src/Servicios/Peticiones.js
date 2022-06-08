@@ -85,3 +85,5 @@ export async function BusquedaHentai (Buscar){
         console.log(error);
     }
 }
+
+/// Falta la Peticion para subir los archivos
